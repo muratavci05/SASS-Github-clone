@@ -1,7 +1,8 @@
 @import "normalize";
 @import "formalize";
 @import "variables";
-@import "header";
+@import "/containers/header";
+@import "/containers/content";
 
 .icon {
     display: inline-block;
