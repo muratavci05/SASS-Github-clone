@@ -7,7 +7,9 @@
     padding: 10px;
 
     &-logo{ 
+        position: relative;
         margin-right: 10px;
+        margin-left: 25px;
 
         svg{
             width: 32px;
@@ -19,7 +21,7 @@
     &-search{
         position: relative;
         input{
-            background-color: hsla(0, 0%, 100%, .125);
+            background-color: rgb(15, 14, 14);
             width: 270px;
             height: 28px;
             padding: 7px;
@@ -28,6 +30,7 @@
             border: none;
             margin-right: 16px;
             border-radius: 3px;
+            border: 0.2px solid rgb(72, 71, 71);
         }
         svg{
             position: absolute;
