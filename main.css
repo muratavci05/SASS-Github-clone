@@ -362,6 +362,65 @@ td {
   padding: 0;
 }
 
+.Header {
+  background-color: #161b22;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.Header-logo {
+  margin-right: 16px;
+}
+.Header-logo svg {
+  width: 32px;
+  height: 32px;
+  color: #fff;
+  background-color: #161b22;
+}
+.Header-search {
+  position: relative;
+}
+.Header-search input {
+  background-color: hsla(0deg, 0%, 100%, 0.125);
+  width: 300px;
+  height: 30px;
+  padding: 7px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.464);
+  border: none;
+  margin-right: 16px;
+  border-radius: 3px;
+}
+.Header-search svg {
+  position: absolute;
+  right: 25px;
+  top: 7px;
+  color: rgba(255, 255, 255, 0.464);
+  background-color: rgba(255, 255, 255, 0.005);
+}
+.Header-links a {
+  color: #fff;
+  margin-right: 16px;
+  font-family: "Maven Pro", sans-serif;
+  font-size: 14px;
+}
+.Header-rightLinks {
+  margin-left: auto;
+  margin-right: 25px;
+}
+.Header-rightLinks i {
+  color: #fff;
+}
+.Header-rightLinks img {
+  width: 21px;
+  border-radius: 50%;
+  margin-top: -3px;
+  margin-left: 14px;
+}
+.Header-rightLinks .iconBell i {
+  padding: 10px;
+}
+
 .icon {
   display: inline-block;
   width: 1em;
