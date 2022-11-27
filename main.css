@@ -427,8 +427,7 @@ td {
 body {
   background-color: rgb(15, 14, 14);
 }
-
-.Main {
+body .Main {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -436,22 +435,22 @@ body {
   color: rgb(201, 190, 190);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-.Main-about img {
+body .Main-about img {
   width: 270px;
   height: 270px;
   border-radius: 50%;
   margin-top: 40px;
 }
-.Main-about-title {
+body .Main-about-title {
   margin-top: 30px;
 }
-.Main-about h3 {
+body .Main-about h3 {
   padding-bottom: 10px;
 }
-.Main-about h4 {
+body .Main-about h4 {
   padding-bottom: 30px;
 }
-.Main-about button {
+body .Main-about button {
   width: 100%;
   height: 30px;
   border: 1px solid rgba(240, 246, 252, 0.1);
@@ -460,28 +459,50 @@ body {
   border-radius: 5px;
   font-size: 13px;
 }
-.Main-about-dsc {
+body .Main-about button:hover {
+  border: 1px solid rgb(144, 142, 142);
+  cursor: pointer;
+}
+body .Main-about-dsc {
   margin-top: 16px;
 }
-.Main-projects {
+body .Main-about-dsc p {
+  font-size: 14px;
+  color: gray;
+}
+body .Main-about-dsc .dscL i {
+  color: gray;
+}
+body .Main-about-dsc .dscL p {
+  color: rgb(227, 223, 223);
+}
+body .Main-projects {
   width: 100%;
   margin-left: 40px;
   margin-top: 40px;
 }
-.Main-projects-links {
+body .Main-projects-links {
   display: flex;
   justify-content: space-between;
   margin-right: 410px;
   font-size: 14px;
 }
-.Main-projects-links a {
+body .Main-projects-links a {
   color: rgb(211, 209, 209);
 }
-.Main-projects-links i {
+body .Main-projects-links i {
   color: rgb(211, 209, 209);
   font-size: 15px;
 }
-.Main-projects .Section {
+body .Main-projects-links span {
+  font-size: 12px;
+  background-color: rgb(138, 136, 136);
+  border-radius: 10px;
+  padding: 3px;
+  color: rgb(247, 240, 240);
+  margin-left: 5px;
+}
+body .Section {
   margin-top: 30px;
   display: flex;
   justify-content: space-between;
@@ -492,13 +513,13 @@ body {
   margin: 10px 0;
   padding: 9px;
 }
-.Main-projects .Section a {
+body .Section a {
   color: rgb(247, 241, 241);
 }
-.Main-projects .Section a i {
+body .Section a i {
   display: flex;
 }
-.Main-projects .Sectionn {
+body .Sectionn {
   margin-top: 30px;
   display: flex;
   justify-content: space-between;
@@ -506,14 +527,14 @@ body {
   color: rgb(215, 213, 213);
   padding: 9px;
 }
-.Main-projects .Sectionn a {
+body .Sectionn a {
   color: rgb(195, 193, 193);
 }
-.Main-projects .PinnedPublicContainer {
+body .PinnedPublicContainer {
   display: flex;
   justify-content: space-between;
 }
-.Main-projects .PinnedPublicContainer .pinnedPublic {
+body .PinnedPublicContainer .pinnedPublic {
   border: 0.1px solid rgb(72, 71, 71);
   font-size: 12px;
   color: rgb(215, 213, 213);
@@ -522,11 +543,14 @@ body {
   padding-top: 3px;
   width: 47%;
 }
-.Main-projects .PinnedPublicContainer .pinnedPublic h4 {
+body .PinnedPublicContainer .pinnedPublic .htmlCircle i {
+  color: orange;
+}
+body .PinnedPublicContainer .pinnedPublic h4 {
   color: rgb(25, 112, 226);
   font-size: 16px;
 }
-.Main-projects .PinnedPublicContainer .pinnedPublic h4 span {
+body .PinnedPublicContainer .pinnedPublic h4 span {
   font-size: 12px;
   background-color: rgb(58, 57, 57);
   border-radius: 10px;
@@ -534,38 +558,74 @@ body {
   color: rgb(237, 232, 232);
   margin-left: 5px;
 }
-.Main-projects .PinnedPublicContainer .pinnedPublic h4 .ellips1 {
-  padding-left: 195px;
+body .PinnedPublicContainer .pinnedPublic h4 .ellips1 {
+  padding-left: 187px;
 }
-.Main-projects .PinnedPublicContainer .pinnedPublic h4 .ellips1 i {
+body .PinnedPublicContainer .pinnedPublic h4 .ellips1 i {
   color: rgb(87, 85, 85);
 }
-.Main-projects .PinnedPublicContainer .pinnedPublic h4 .ellips2 {
-  padding-left: 106px;
+body .PinnedPublicContainer .pinnedPublic h4 .ellips2 {
+  padding-left: 97px;
 }
-.Main-projects .PinnedPublicContainer .pinnedPublic h4 .ellips2 i {
+body .PinnedPublicContainer .pinnedPublic h4 .ellips2 i {
   color: rgb(87, 85, 85);
 }
-.Main-projects .PinnedPublicContainer .pinnedPublic h4 .ellips3 {
-  padding-left: 202px;
+body .PinnedPublicContainer .pinnedPublic h4 .ellips3 {
+  padding-left: 193px;
 }
-.Main-projects .PinnedPublicContainer .pinnedPublic h4 .ellips3 i {
+body .PinnedPublicContainer .pinnedPublic h4 .ellips3 i {
   color: rgb(87, 85, 85);
 }
-.Main-projects .PinnedPublicContainer .pinnedPublic h4 .ellips4 {
-  padding-left: 66px;
+body .PinnedPublicContainer .pinnedPublic h4 .ellips4 {
+  padding-left: 57px;
 }
-.Main-projects .PinnedPublicContainer .pinnedPublic h4 .ellips4 i {
+body .PinnedPublicContainer .pinnedPublic h4 .ellips4 i {
   color: rgb(87, 85, 85);
 }
-.Main-projects .PinnedPublicContainer .pinnedPublic a {
+body .PinnedPublicContainer .pinnedPublic a {
   color: rgb(215, 213, 213);
 }
-.Main-projects .PinnedPublicContainer .pinnedPublic a i {
+body .PinnedPublicContainer .pinnedPublic a i {
   color: yellow;
 }
-.Main-projects .PinnedPublicContainer .pinnedPublic i {
+body .PinnedPublicContainer .pinnedPublic i {
   color: rgb(153, 142, 142);
+}
+body .hr {
+  border-top: 0.25px solid rgb(82, 79, 79);
+  margin-left: 110px;
+  margin-right: 110px;
+}
+body .Footer {
+  display: flex;
+  justify-content: left;
+}
+body .Footer p {
+  padding-left: 10px;
+  padding-top: 3px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body .Footer svg {
+  width: 32px;
+  height: 32px;
+  color: rgb(255, 255, 255);
+  background-color: #161b22;
+  margin-left: -40px;
+  margin-top: -7px;
+}
+body .Footer a {
+  padding-left: 30px;
+  padding-top: 15px;
+  color: rgb(26, 125, 207);
+  font-size: 13px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body .Footer a:hover {
+  color: rgb(87, 167, 233);
 }
 
 .icon {

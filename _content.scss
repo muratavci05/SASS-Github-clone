@@ -1,6 +1,7 @@
 body {
   background-color: rgb(15, 14, 14);
-}
+  
+
 .Main {
   max-width: 1200px;
   margin-left: auto;
@@ -35,9 +36,27 @@ body {
       color: rgb(215, 213, 213);
       border-radius: 5px;
       font-size: 13px;
+      
+    }
+    button:hover{
+        border: 1px solid rgb(144, 142, 142);
+        cursor: pointer;
     }
     &-dsc {
       margin-top: 16px;
+      
+      p{
+        font-size: 14px;
+        color: gray;
+      }
+      .dscL{
+        i{
+            color: gray;
+        }
+        p{
+            color: rgb(227, 223, 223);
+        }
+      }
     }
   }
   &-projects {
@@ -45,21 +64,37 @@ body {
     margin-left: 40px;
     margin-top: 40px;
 
+
+
     &-links {
       display: flex;
       justify-content: space-between;
       margin-right: 410px;
       font-size: 14px;
+        
 
       a {
         color: rgb(211, 209, 209);
       }
-
-      i {
+      i{
         color: rgb(211, 209, 209);
         font-size: 15px;
       }
+      span{
+        font-size:12px;
+        background-color:rgb(138, 136, 136);
+        border-radius:10px;
+        padding: 3px;
+        color:rgb(247, 240, 240);
+        margin-left: 5px;
+      }
+     
+        
+      }
+      
     }
+   
+   }
     .Section {
       margin-top: 30px;
       display: flex;
@@ -103,6 +138,12 @@ body {
         padding: 20px;
         padding-top: 3px;
         width: 47%;
+
+        .htmlCircle{
+            i{
+                color: orange;
+            }
+        }
         h4 {
           color: rgb(25, 112, 226);
           font-size: 16px;
@@ -116,25 +157,25 @@ body {
 
           
           .ellips1{
-            padding-left: 195px;
+            padding-left: 187px;
             i{
                 color: rgb(87, 85, 85);
             }
           }
           .ellips2{
-            padding-left: 106px;
+            padding-left: 97px;
             i{
                 color: rgb(87, 85, 85);
             }
           }
           .ellips3 {
-            padding-left: 202px;
+            padding-left: 193px;
             i{
                 color: rgb(87, 85, 85);
             }
           }
           .ellips4{
-            padding-left: 66px;
+            padding-left: 57px;
             i{
                 color: rgb(87, 85, 85);
             }
@@ -151,7 +192,65 @@ body {
         i {
           color: rgb(153, 142, 142);
         }
+
+        
       }
+      
     }
-  }
-}
+   
+    .hr{
+      border-top: 0.25px solid rgb(82, 79, 79);
+      margin-left: 110px;
+      margin-right: 110px;
+
+    }
+     
+      .Footer{
+        display: flex;
+        justify-content:left;
+
+
+
+        p{
+          padding-left: 10px;
+          padding-top: 3px;
+          color: white;
+          display: flex;
+          justify-content: space-around;
+          font-size: 12px;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+
+        svg{
+          width: 32px;
+          height:32px;
+          color: rgb(255, 255, 255);
+          background-color: #161b22;
+          margin-left: -40px;
+          margin-top: -7px;
+          
+          }
+       
+        a{ 
+          padding-left: 30px;
+          padding-top: 15px;
+          color: rgb(26, 125, 207);
+          font-size: 13px;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+          &:hover{
+           color: rgb(87, 167, 233);
+          }
+
+        }
+        
+       
+    
+           
+           
+        }
+      
+    }
+   
+
