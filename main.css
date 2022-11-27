@@ -526,6 +526,38 @@ body {
   color: rgb(25, 112, 226);
   font-size: 16px;
 }
+.Main-projects .PinnedPublicContainer .pinnedPublic h4 span {
+  font-size: 12px;
+  background-color: rgb(58, 57, 57);
+  border-radius: 10px;
+  padding: 3px;
+  color: rgb(237, 232, 232);
+  margin-left: 5px;
+}
+.Main-projects .PinnedPublicContainer .pinnedPublic h4 .ellips1 {
+  padding-left: 195px;
+}
+.Main-projects .PinnedPublicContainer .pinnedPublic h4 .ellips1 i {
+  color: rgb(87, 85, 85);
+}
+.Main-projects .PinnedPublicContainer .pinnedPublic h4 .ellips2 {
+  padding-left: 106px;
+}
+.Main-projects .PinnedPublicContainer .pinnedPublic h4 .ellips2 i {
+  color: rgb(87, 85, 85);
+}
+.Main-projects .PinnedPublicContainer .pinnedPublic h4 .ellips3 {
+  padding-left: 202px;
+}
+.Main-projects .PinnedPublicContainer .pinnedPublic h4 .ellips3 i {
+  color: rgb(87, 85, 85);
+}
+.Main-projects .PinnedPublicContainer .pinnedPublic h4 .ellips4 {
+  padding-left: 66px;
+}
+.Main-projects .PinnedPublicContainer .pinnedPublic h4 .ellips4 i {
+  color: rgb(87, 85, 85);
+}
 .Main-projects .PinnedPublicContainer .pinnedPublic a {
   color: rgb(215, 213, 213);
 }
