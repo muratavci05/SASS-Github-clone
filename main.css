@@ -487,12 +487,53 @@ body {
   justify-content: space-between;
   font-size: 12px;
   color: rgb(215, 213, 213);
+  margin-bottom: 20px;
+  border: 0.4px solid rgb(72, 71, 71);
+  margin: 10px 0;
+  padding: 9px;
 }
 .Main-projects .Section a {
   color: rgb(247, 241, 241);
 }
 .Main-projects .Section a i {
   display: flex;
+}
+.Main-projects .Sectionn {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: rgb(215, 213, 213);
+  padding: 9px;
+}
+.Main-projects .Sectionn a {
+  color: rgb(195, 193, 193);
+}
+.Main-projects .PinnedPublicContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.Main-projects .PinnedPublicContainer .pinnedPublic {
+  border: 0.1px solid rgb(72, 71, 71);
+  font-size: 12px;
+  color: rgb(215, 213, 213);
+  margin-bottom: 20px;
+  padding: 20px;
+  padding-top: 3px;
+  width: 47%;
+}
+.Main-projects .PinnedPublicContainer .pinnedPublic h4 {
+  color: rgb(25, 112, 226);
+  font-size: 16px;
+}
+.Main-projects .PinnedPublicContainer .pinnedPublic a {
+  color: rgb(215, 213, 213);
+}
+.Main-projects .PinnedPublicContainer .pinnedPublic a i {
+  color: yellow;
+}
+.Main-projects .PinnedPublicContainer .pinnedPublic i {
+  color: rgb(153, 142, 142);
 }
 
 .icon {
